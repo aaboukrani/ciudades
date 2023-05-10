@@ -56,3 +56,24 @@
   font-weight: 400; 
   text-align: center;
 }
+.purple-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.mapa-img {
+  width: 50px; 
+  height: 50px;
+}
+
+.button-text {
+  margin-top: 5px; 
+}

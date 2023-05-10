@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
+import mapa from './images/miscalenea/mapa.png';
 //const images = require.context('../images/flags', false, /\.(png|jpe?g|svg)$/);
 //const imageKeys = images.keys();
 
@@ -88,6 +89,13 @@ function App() {
           <p style={{ color: 'black' }}>No se encontraron resultados para la búsqueda.</p>
         </div>
       )}
+      
+      <button class="mapa-button">
+        <div>
+        <img src={mapa} alt="logoMapa" class="mapa-img"/>
+        <span class="button-text">Ver mapa</span>
+        </div>
+      </button>
       
     </div>
   );
